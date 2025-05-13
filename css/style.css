@@ -1,0 +1,165 @@
+/* === Base Layout === */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5fff7;
+    color: #2d3e2f;
+    line-height: 1.6;
+    padding-top: 80px;
+}
+
+h1, h2, h3 {
+    color: #3c593c;
+}
+
+/* === Navbar === */
+.navbar {
+    background-color: #d0f0c0;
+    color: #2d3e2f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2d3e2f;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links .active {
+    color: #4c9f70;
+}
+
+/* === Hero Section === */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #eaffea;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #3c593c;
+}
+
+/* === General Sections === */
+section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4c9f70;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3b7e57;
+}
+
+/* === Skills === */
+.skills-category {
+    margin-bottom: 2rem;
+}
+
+.skills-category ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.skills-category li {
+    padding: 0.3rem 0;
+}
+
+/* === Contact === */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75rem;
+    border: 1px solid #a2d9b1;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+/* === Footer === */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #d0f0c0;
+    color: #2d3e2f;
+    margin-top: 4rem;
+}
+
+/* === Fade In on Scroll === */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
