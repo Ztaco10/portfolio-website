@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website, created as the final project for CPSC 349 (Web Development). This site showcases my background, skills, and software projects using clean HTML5, CSS3, and JavaScript.
 
 ## 🔗 Live Site
-[https://Ztaco10.github.io/portfolio-website](https://Ztaco10.github.io/portfolio-website)
+[https://ztaco10.github.io/portfolio-website](https://ztaco10.github.io/portfolio-website)
 
 ## 📁 Project Structure
 portfolio-website/
