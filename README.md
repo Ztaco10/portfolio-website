@@ -35,8 +35,8 @@ portfolio-website/
 ## 📫 Contact
 - Email: Brady.truong21@gmail.com  
 - Phone: (714) 675-9546  
-- GitHub: [github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)  
-- LinkedIn: [linkedin.com/in/YOUR_USERNAME](https://linkedin.com/in/YOUR_USERNAME)
+- GitHub: [github.com/ztaco10](https://github.com/ztaco10)  
+- LinkedIn: [linkedin.com/in/brady-truong21](https://linkedin.com/in/brady-truong21)
 
 ## 🚀 How to Run Locally
 1. Clone or download this repository  
